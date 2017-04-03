@@ -50,3 +50,9 @@ span.stretch {
     -o-transform:scale(1,0.4); /* Opera */
     transform:scale(1,0.4); /* W3C */
 }
+
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
