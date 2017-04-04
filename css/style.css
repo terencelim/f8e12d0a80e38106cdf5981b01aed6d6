@@ -15,44 +15,15 @@ body
     color: #006280;
     font-family: 'square721_bdex_btbold';
 }
-.center-div
-{
+
+object, img {
+    max-height: 90%;
+    max-width: 90%;
     position: absolute;
-    margin: auto;
-    top: -5%;
-    right: 0;
+    top: -8%;
     bottom: 0;
     left: 0;
-    width: 401px;
-    height: 629px;
-    /*background-color: #ccc;*/
-    border-radius: 3px;
-    text-align: center;
-    font-size: 50px;
-}
-
-span.spacing {
-    display:inline-block;
-    letter-spacing: 36px;
-    padding-left: 35px;
-    -webkit-transform:scale(1,1); /* Safari and Chrome */
-    -moz-transform:scale(1,1); /* Firefox */
-    -ms-transform:scale(1,1); /* IE 9 */
-    -o-transform:scale(1,1); /* Opera */
-    transform:scale(1,1); /* W3C */
-}
-
-span.stretch {
-    display:inline-block;
-    -webkit-transform:scale(1,0.4); /* Safari and Chrome */
-    -moz-transform:scale(1,0.4); /* Firefox */
-    -ms-transform:scale(1,0.4); /* IE 9 */
-    -o-transform:scale(1,0.4); /* Opera */
-    transform:scale(1,0.4); /* W3C */
-}
-
-.resize_fit_center {
-    max-width:100%;
-    max-height:100%;
-    vertical-align: middle;
+    right: 0;
+    margin: auto;
+    border: 0px solid rgb(255,255,255);
 }
