@@ -1,0 +1,17 @@
+path#left_eye:hover, 
+path#right_eye:hover {
+  cursor: crosshair;
+  fill: #eb2525;
+  fill-opacity: 1;
+}
+
+path#left_eye,
+path#right_eye {
+  fill: white;
+  fill-opacity: 1;
+}
+
+path#eyes:hover {
+  fill: white !important;
+  fill-opacity: 0 !important;
+}
