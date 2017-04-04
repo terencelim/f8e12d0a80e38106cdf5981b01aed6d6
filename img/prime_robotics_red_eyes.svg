@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<?xml-stylesheet href="./css/pr-styles.css" type="text/css"?><svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="129.17052mm"
+   height="193.06287mm"
+   viewBox="0 0 457.69081 684.08102"
+   id="svg4844"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="prime_robotics_red_eyes.svg">
+  <defs
+     id="defs4846">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5977">
+      <stop
+         style="stop-color:#750020;stop-opacity:0"
+         offset="0"
+         id="stop5979" />
+      <stop
+         style="stop-color:#b60020;stop-opacity:0.65372168"
+         offset="1"
+         id="stop5981" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5731"
+       inkscape:collect="always">
+      <stop
+         id="stop5733"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:0.443" />
+      <stop
+         id="stop5735"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5711">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5713" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop5715" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4729"
+       id="radialGradient7291"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.3492237,1.5518846,-1.6524827,2.501508,2282.3171,27012.718)"
+       cx="-10482.48"
+       cy="-7211.5874"
+       fx="-10482.48"
+       fy="-7211.5874"
+       r="80.393044" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4729">
+      <stop
+         style="stop-color:#00626c;stop-opacity:0.482"
+         offset="0"
+         id="stop4731" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1"
+         id="stop4733" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4729"
+       id="radialGradient4794"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.3492237,1.5518846,-1.6524827,2.501508,2282.3171,27012.718)"
+       cx="-10482.48"
+       cy="-7211.5874"
+       fx="-10482.48"
+       fy="-7211.5874"
+       r="80.393044" />
+    <radialGradient
+       r="80.393044"
+       fy="-7211.5874"
+       fx="-10482.48"
+       cy="-7211.5874"
+       cx="-10482.48"
+       gradientTransform="matrix(2.3492237,1.5518846,-1.6524827,2.501508,2282.3171,27012.718)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4840"
+       xlink:href="#linearGradient4729"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4729"
+       id="radialGradient5499"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.3492237,1.5518846,-1.6524827,2.501508,13041.364,34938.03)"
+       cx="-10482.48"
+       cy="-7211.5874"
+       fx="-10482.48"
+       fy="-7211.5874"
+       r="80.393044" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4729"
+       id="radialGradient5538"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.3492237,1.5518846,-1.6524827,2.501508,13041.364,34938.03)"
+       cx="-10482.48"
+       cy="-7211.5874"
+       fx="-10482.48"
+       fy="-7211.5874"
+       r="80.393044" />
+    <radialGradient
+       r="80.393044"
+       fy="-7211.5874"
+       fx="-10482.48"
+       cy="-7211.5874"
+       cx="-10482.48"
+       gradientTransform="matrix(2.3492237,1.5518846,-1.6524827,2.501508,13041.364,34938.03)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5583"
+       xlink:href="#linearGradient4729"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5711"
+       id="radialGradient5717"
+       cx="272.70465"
+       cy="433.96179"
+       fx="272.70465"
+       fy="433.96179"
+       r="4.9809074"
+       gradientTransform="matrix(21.25,0,0,43.625,-5490.8222,-18666.599)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5731"
+       id="radialGradient5729"
+       cx="229.1217"
+       cy="511.78842"
+       fx="229.1217"
+       fy="511.78842"
+       r="105.84428"
+       gradientTransform="matrix(1,0,0,2.0529411,-80.623433,-790.72545)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5973"
+       x="-0.22530706"
+       width="1.4506141"
+       y="-0.10974842"
+       height="1.2194968">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="19.872885"
+         id="feGaussianBlur5975" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6581"
+       x="-0.083994754"
+       width="1.1679895"
+       y="-0.3080706"
+       height="1.6161412">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.9404888"
+         id="feGaussianBlur6583" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4200"
+       x="-0.20149411"
+       width="1.4029882"
+       y="-0.098149002"
+       height="1.196298">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="17.772499"
+         id="feGaussianBlur4202" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5977"
+       id="linearGradient4235"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-80.623433,-231.85873)"
+       x1="140.84291"
+       y1="545.43011"
+       x2="301.629"
+       y2="545.43011" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4398879"
+     inkscape:cx="41.330808"
+     inkscape:cy="298.9816"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg4844"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1151"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4849">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g4218"
+     transform="translate(1.9999978,1.9999927)"
+     style="fill:#8d2426">
+    <path
+       d="M 97.166569,682.08105 Q 94.547569,682.08105 92.302569,682.01965 90.111569,681.98895 88.240569,681.83555 86.369569,681.68215 84.819569,681.37535 83.269569,681.03785 82.040569,680.51635 79.635569,679.50385 78.726569,677.90855 77.818569,676.31315 77.818569,673.88945 L 77.818569,667.81475 Q 77.818569,665.20695 78.726569,663.51955 79.635569,661.83205 82.040569,660.78895 84.445569,659.77655 88.080569,659.50035 91.768569,659.22425 97.113569,659.22425 L 111.06357,659.22425 Q 116.40857,659.22425 120.09657,659.50035 123.83757,659.77655 126.18957,660.78895 128.43457,661.77075 129.39657,663.42745 130.35857,665.05355 130.35857,667.53865 L 130.35857,673.76665 Q 130.35857,676.25175 129.39657,677.90855 128.43457,679.53455 126.18957,680.51635 123.78457,681.55945 120.04257,681.80495 116.35457,682.08105 111.06357,682.08105 L 97.166569,682.08105 Z M 107.90957,676.49725 Q 110.74257,676.49725 112.72057,676.34385 114.69757,676.19045 115.92757,675.73025 117.20957,675.27005 117.74457,674.44165 118.33257,673.58265 118.33257,672.23265 L 118.33257,669.07265 Q 118.33257,667.72265 117.74457,666.89435 117.20957,666.03525 115.92757,665.57505 114.69757,665.11485 112.72057,664.96145 110.74257,664.80805 107.90957,664.80805 L 100.32057,664.80805 Q 97.433569,664.80805 95.456569,664.96145 93.478569,665.11485 92.195569,665.60575 90.966569,666.06595 90.432569,666.92495 89.897569,667.78405 89.897569,669.19535 L 89.897569,672.29405 Q 89.897569,673.61325 90.485569,674.44165 91.073569,675.27005 92.302569,675.73025 93.585569,676.19045 95.563569,676.34385 97.540569,676.49725 100.37357,676.49725 L 107.90957,676.49725 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4192"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 171.17257,676.74265 Q 174.43257,676.74265 174.43257,674.68705 174.43257,673.79735 173.52357,673.27575 172.66857,672.72355 171.17257,672.72355 L 149.25857,672.72355 149.25857,676.74265 171.17257,676.74265 Z M 170.10357,668.18285 Q 173.14957,668.18285 173.14957,666.34205 173.14957,665.51375 172.29457,665.02285 171.49257,664.50125 170.10357,664.50125 L 149.25857,664.50125 149.25857,668.18285 170.10357,668.18285 Z M 137.39257,681.80495 137.39257,659.50035 172.40157,659.50035 Q 185.33657,659.50035 185.33657,665.72845 185.33657,667.53865 183.94657,668.67375 182.55657,669.80895 179.61757,670.45325 183.30557,670.79075 184.96157,672.07925 186.67257,673.36785 186.67257,675.76095 186.67257,678.98235 183.67957,680.39365 180.68657,681.80495 174.21857,681.80495 L 137.39257,681.80495 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4194"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 212.10257,682.08105 Q 209.48357,682.08105 207.23857,682.01965 205.04757,681.98895 203.17657,681.83555 201.30557,681.68215 199.75557,681.37535 198.20557,681.03785 196.97657,680.51635 194.57157,679.50385 193.66257,677.90855 192.75357,676.31315 192.75357,673.88945 L 192.75357,667.81475 Q 192.75357,665.20695 193.66257,663.51955 194.57157,661.83205 196.97657,660.78895 199.38157,659.77655 203.01557,659.50035 206.70357,659.22425 212.04857,659.22425 L 225.99857,659.22425 Q 231.34357,659.22425 235.03157,659.50035 238.77357,659.77655 241.12457,660.78895 243.36957,661.77075 244.33157,663.42745 245.29357,665.05355 245.29357,667.53865 L 245.29357,673.76665 Q 245.29357,676.25175 244.33157,677.90855 243.36957,679.53455 241.12457,680.51635 238.71957,681.55945 234.97857,681.80495 231.29057,682.08105 225.99857,682.08105 L 212.10257,682.08105 Z M 222.84557,676.49725 Q 225.67857,676.49725 227.65557,676.34385 229.63357,676.19045 230.86257,675.73025 232.14557,675.27005 232.67957,674.44165 233.26757,673.58265 233.26757,672.23265 L 233.26757,669.07265 Q 233.26757,667.72265 232.67957,666.89435 232.14557,666.03525 230.86257,665.57505 229.63357,665.11485 227.65557,664.96145 225.67857,664.80805 222.84557,664.80805 L 215.25557,664.80805 Q 212.36957,664.80805 210.39157,664.96145 208.41457,665.11485 207.13157,665.60575 205.90257,666.06595 205.36757,666.92495 204.83357,667.78405 204.83357,669.19535 L 204.83357,672.29405 Q 204.83357,673.61325 205.42157,674.44165 206.00957,675.27005 207.23857,675.73025 208.52157,676.19045 210.49857,676.34385 212.47657,676.49725 215.30957,676.49725 L 222.84557,676.49725 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4196"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 265.95757,681.80495 265.95757,664.96145 249.70957,664.96145 249.70957,659.50035 294.07157,659.50035 294.07157,664.96145 277.82357,664.96145 277.82357,681.80495 265.95757,681.80495 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4198"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 299.73457,681.80495 299.73457,659.50035 311.60057,659.50035 311.60057,681.80495 299.73457,681.80495 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4200"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 357.17457,667.32385 Q 357.17457,665.97395 355.62457,665.39095 354.12857,664.80805 350.92157,664.80805 L 341.40757,664.80805 Q 338.52057,664.80805 336.65057,664.96145 334.83357,665.11485 333.71057,665.57505 332.64157,666.03525 332.21457,666.92495 331.83957,667.78405 331.83957,669.19535 L 331.83957,672.29405 Q 331.83957,673.61325 332.32057,674.44165 332.85557,675.23935 333.97757,675.69955 335.15357,676.15975 336.97157,676.34385 338.78857,676.49725 341.40757,676.49725 L 348.30257,676.49725 Q 350.76057,676.49725 352.47157,676.40515 354.23457,676.28245 355.35757,675.97565 356.47957,675.63815 356.96057,675.05525 357.49557,674.44165 357.49557,673.42925 L 357.49557,673.18375 369.52157,673.18375 Q 369.57457,673.61325 369.57457,674.01215 369.62857,674.41095 369.62857,674.80985 369.62857,676.89605 368.71957,678.30735 367.81057,679.68795 365.72657,680.57765 363.48157,681.52875 359.95357,681.80495 356.47957,682.08105 351.34857,682.08105 L 338.09357,682.08105 Q 335.79557,682.08105 333.81757,682.01965 331.83957,681.98895 330.12957,681.80495 328.41957,681.65155 326.97657,681.31405 325.53257,680.97655 324.25057,680.42425 321.79157,679.31985 320.77557,677.75515 319.76057,676.19045 319.76057,673.88945 L 319.76057,667.81475 Q 319.76057,665.29895 320.72257,663.64225 321.73857,661.98545 323.92957,661.00375 326.17457,660.02195 329.64857,659.62315 333.12257,659.22425 338.09357,659.22425 L 351.34857,659.22425 Q 356.47957,659.22425 359.95357,659.46975 363.42857,659.71515 365.56657,660.66625 367.43657,661.49455 368.29157,662.87515 369.14757,664.25585 369.14757,666.28075 369.14757,666.58755 369.14757,666.89435 369.14757,667.20115 369.09357,667.53865 L 357.17457,667.53865 357.17457,667.32385 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4202"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 387.31057,674.38035 387.31057,674.77915 Q 387.31057,675.48475 387.57757,675.91425 387.89857,676.31315 388.53957,676.55855 389.18157,676.77335 390.25057,676.86535 391.31957,676.92675 392.86957,676.92675 L 407.78157,676.92675 Q 409.91957,676.92675 410.88157,676.52795 411.84357,676.09835 411.84357,675.08595 411.84357,674.47235 411.46957,674.10415 411.14857,673.73595 410.40057,673.55195 409.70557,673.33715 408.63657,673.27575 407.56757,673.18375 406.12457,673.15305 L 387.47057,672.81555 Q 384.10357,672.75425 381.80557,672.44745 379.50657,672.10995 378.11757,671.37365 376.72757,670.60665 376.13957,669.34875 375.55157,668.09085 375.55157,666.15795 375.55157,664.31715 376.13957,663.05935 376.78157,661.80145 378.27757,660.94235 380.41557,659.77655 383.67557,659.50035 386.93657,659.22425 391.63957,659.22425 L 409.75857,659.22425 Q 416.38657,659.22425 419.37957,660.60485 422.42657,661.98545 422.42657,665.20695 422.42657,665.48305 422.37257,665.78985 422.37257,666.09665 422.31957,666.43415 L 410.88157,666.43415 410.88157,666.34205 Q 410.88157,664.13305 406.97957,664.13305 L 393.29657,664.13305 Q 390.51757,664.13305 389.07457,664.43995 387.68457,664.71605 387.68457,665.88185 387.68457,666.92495 388.75357,667.29315 389.87657,667.66135 392.33457,667.72265 L 411.84357,667.99885 Q 415.21057,668.06015 417.50857,668.45905 419.80757,668.85785 421.25057,669.71685 422.69357,670.57595 423.33457,671.92585 423.97657,673.27575 423.97657,675.23935 423.97657,677.35625 423.06757,678.70615 422.21257,680.05615 419.59357,681.00725 417.77657,681.68215 414.78357,681.86625 411.84357,682.08105 407.56757,682.08105 L 391.74657,682.08105 Q 387.25757,682.08105 384.10357,681.83555 381.00357,681.59015 379.07957,680.94585 377.15557,680.30155 376.30057,679.16635 375.44457,678.00055 375.44457,676.15975 375.44457,675.76095 375.60557,674.38035 L 387.31057,674.38035 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4204"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 37.998569,605.37445 37.998569,616.94435 58.560569,616.94435 Q 61.515569,616.94435 62.521569,615.56105 63.590569,614.11475 63.590569,610.71925 63.590569,607.95255 62.395569,606.69495 61.264569,605.37445 58.560569,605.37445 L 37.998569,605.37445 Z M 59.063569,593.99325 Q 63.087569,593.99325 66.042569,594.37045 68.998569,594.74785 71.199569,595.87965 74.909569,597.82885 76.355569,601.53875 77.801569,605.18585 77.801569,611.15945 77.801569,615.74965 77.046569,619.01935 76.355569,622.28915 74.720569,624.36425 73.148569,626.43925 70.507569,627.38245 67.866569,628.32565 64.093569,628.32565 L 37.998569,628.32565 37.998569,639.70695 23.976569,639.70695 23.976569,593.99325 59.063569,593.99325 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4206"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 128.46457,605.37445 128.46457,616.56705 150.66157,616.56705 Q 153.61657,616.56705 154.62257,615.18375 155.69157,613.80045 155.69157,610.53065 155.69157,607.88965 154.49757,606.63205 153.36557,605.37445 150.66157,605.37445 L 128.46457,605.37445 Z M 151.16457,593.99325 Q 156.32057,593.99325 159.90457,594.68485 163.48957,595.31375 165.68957,597.01145 167.95357,598.70925 168.89657,601.60175 169.90257,604.49415 169.90257,608.95865 169.90257,614.61785 168.20557,617.63605 166.57057,620.65435 162.29457,621.66035 169.52557,623.35815 169.52557,630.33775 L 169.52557,639.70695 155.56657,639.70695 155.56657,632.72725 Q 155.56657,631.28095 155.18857,630.40065 154.87457,629.45745 154.11957,628.95445 153.36557,628.38855 152.17057,628.19985 150.97557,628.01125 149.27857,628.01125 L 128.46457,628.01125 128.46457,639.70695 114.44257,639.70695 114.44257,593.99325 151.16457,593.99325 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4208"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 208.41357,639.70695 208.41357,593.99325 222.37357,593.99325 222.37357,639.70695 208.41357,639.70695 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4210"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 261.40757,639.70695 261.40757,593.99325 282.03257,593.99325 298.31857,622.54065 314.91857,593.99325 335.22857,593.99325 335.22857,639.70695 321.70957,639.70695 321.70957,607.13515 302.84557,639.70695 293.72757,639.70695 274.98957,607.13515 274.98957,639.70695 261.40757,639.70695 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4212"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 387.44257,605.12295 387.44257,612.03975 421.33457,612.03975 421.33457,621.66035 387.44257,621.66035 387.44257,628.64005 423.97557,628.64005 423.97557,639.70695 373.48357,639.70695 373.48357,593.99325 423.40957,593.99325 423.40957,605.12295 387.44257,605.12295 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4214"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="M 35.895569,665.05355 35.895569,670.51455 54.763569,670.51455 Q 57.275569,670.51455 58.130569,669.83965 59.039569,669.16465 59.039569,667.56925 59.039569,666.28075 58.023569,665.66715 57.061569,665.05355 54.763569,665.05355 L 35.895569,665.05355 Z M 55.190569,659.50035 Q 59.573569,659.50035 62.620569,659.83785 65.666569,660.14465 67.537569,660.97305 69.461569,661.80145 70.263569,663.21265 71.118569,664.62395 71.118569,666.80225 71.118569,669.56345 69.675569,671.03615 68.285569,672.50885 64.651569,672.99965 70.798569,673.82805 70.798569,677.23355 L 70.798569,681.80495 58.932569,681.80495 58.932569,678.39945 Q 58.932569,677.69375 58.611569,677.26425 58.344569,676.80405 57.703569,676.55855 57.061569,676.28245 56.046569,676.19045 55.030569,676.09835 53.587569,676.09835 L 35.895569,676.09835 35.895569,681.80495 23.976569,681.80495 23.976569,659.50035 55.190569,659.50035 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#8d2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4216"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <path
+     inkscape:connector-curvature="0"
+     style="display:inline;fill:#600000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 223.97657,54.407264 C 118.35457,58.195464 38.836567,166.68426 56.406567,270.45416 L 90.232567,429.02056 97.531567,435.49126 106.92757,464.75296 119.53457,473.92286 125.02557,498.09666 201.50157,551.42676 223.97657,554.40724 246.45057,551.42676 322.92757,498.09666 328.41757,473.92286 341.02557,464.75296 350.42157,435.49126 357.72057,429.02056 391.54657,270.45416 C 409.11657,166.68436 329.59857,58.195464 223.97657,54.407264 Z"
+     id="path4662"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:nodetypes="zcsczccscczcccccccccccccccccccccccccccsccccccccccccccsscccsccccccccsccccccscccsccccccccsccccccccccccccccccccccccccc"
+     inkscape:connector-curvature="0"
+     id="path4664"
+     d="M 223.97557,59.911264 C 205.71157,59.911264 187.94057,66.295964 187.94057,66.295964 187.94057,66.295964 205.71357,80.639664 223.97557,80.639764 242.23757,80.639864 260.00957,66.295964 260.00957,66.295964 260.00957,66.295964 242.23957,59.911264 223.97557,59.911264 Z M 179.73957,69.008864 C 173.26657,71.479864 159.08857,77.894364 153.06157,82.715964 159.33457,93.817164 181.10257,114.39566 223.97557,114.39556 266.84857,114.39546 288.61657,93.817064 294.88957,82.715964 288.86257,77.894264 274.68557,71.479864 268.21257,69.008864 255.60257,83.034264 235.47057,87.040164 223.97557,87.040164 212.48057,87.040164 192.34957,83.034164 179.73957,69.008864 Z M 175.04257,76.889764 C 176.27757,76.891364 177.19457,77.301264 177.59857,78.032364 178.45457,79.583764 176.81457,82.131564 173.93457,83.723764 171.05557,85.315264 168.02657,85.349364 167.16757,83.799864 166.30857,82.249064 167.94857,79.699764 170.82957,78.106564 172.23957,77.327064 173.75957,76.888164 175.04257,76.889764 Z M 272.91157,76.889764 C 274.19457,76.888564 275.71357,77.327564 277.12257,78.106564 280.00457,79.699264 281.64457,82.248564 280.78657,83.799864 279.92857,85.351064 276.89757,85.316964 274.01657,83.723764 271.13657,82.131164 269.49757,79.583264 270.35457,78.032364 270.75857,77.301064 271.67557,76.891164 272.91157,76.889764 Z M 173.61257,80.801864 C 173.00857,80.800964 172.29257,81.007364 171.62857,81.374164 170.27157,82.124664 169.49957,83.325164 169.90357,84.055764 170.30757,84.787164 171.73557,84.771364 173.09357,84.020564 174.45057,83.269864 175.22157,82.069364 174.81757,81.338964 174.62757,80.995364 174.19557,80.802764 173.61457,80.801864 Z M 274.33957,80.801864 C 273.75857,80.802764 273.32657,80.995364 273.13657,81.338964 272.73257,82.069364 273.50357,83.269864 274.86057,84.020564 276.21857,84.771364 277.64657,84.787164 278.05057,84.055764 278.45457,83.325164 277.68257,82.124664 276.32557,81.374164 275.66057,81.006964 274.94457,80.800464 274.33957,80.801864 Z M 143.89357,88.047964 C 80.033567,121.89926 51.565567,214.32876 62.509567,269.05186 73.826567,325.63856 91.575567,405.38976 91.575567,405.38976 L 123.02257,419.78816 138.44657,472.78626 221.00557,506.16316 221.00557,123.49126 C 221.00557,123.49126 168.90957,126.03896 143.89357,88.047964 Z M 304.05557,88.047964 C 279.03957,126.03896 226.94657,123.49126 226.94657,123.49126 L 226.94657,506.16316 309.50557,472.78626 324.92957,419.78816 356.37657,405.38976 C 356.37657,405.38976 374.12557,325.63866 385.44257,269.05186 396.38557,214.32876 367.91557,121.89926 304.05557,88.047964 Z M 223.97157,97.040164 C 227.26457,97.035264 229.93457,98.466964 229.93657,100.23936 229.93857,102.01096 227.27357,103.45226 223.98357,103.45806 221.52557,103.46226 219.31857,102.65326 218.42557,101.42096 218.15657,101.05076 218.01757,100.65656 218.01657,100.25886 218.01357,98.486164 220.68057,97.045064 223.97157,97.040164 Z M 223.97057,97.713964 C 222.41957,97.716364 221.16357,98.396164 221.16557,99.231564 221.16557,99.419064 221.22857,99.605764 221.35457,99.780364 221.77657,100.36086 222.81757,100.74156 223.97557,100.73936 225.52657,100.73696 226.78157,100.05856 226.78057,99.223764 226.78057,98.388064 225.52257,97.711364 223.97057,97.713964 Z M 134.21457,133.93276 C 135.20657,133.96876 136.11357,134.21446 136.91157,134.66316 141.78357,137.40706 141.60357,146.96706 136.50957,156.01666 131.41557,165.06586 123.33557,170.17856 118.46257,167.43666 113.58857,164.69416 113.76757,155.13356 118.86257,146.08306 123.00757,138.72116 129.28657,133.75136 134.21457,133.93276 Z M 313.73757,133.93276 C 318.66557,133.75136 324.94457,138.72116 329.08957,146.08306 334.18457,155.13356 334.36357,164.69416 329.48957,167.43666 324.61657,170.18056 316.53557,165.06746 311.44057,156.01666 306.34557,146.96616 306.16657,137.40566 311.04057,134.66316 311.83857,134.21446 312.74557,133.96876 313.73757,133.93276 Z M 133.65557,147.80576 C 131.33357,147.72066 128.37457,150.06306 126.42157,153.53236 124.02157,157.79656 123.93757,162.30066 126.23357,163.59286 128.52957,164.88526 132.33757,162.47616 134.73757,158.21196 137.13757,153.94776 137.22157,149.44366 134.92557,148.15146 134.54957,147.93956 134.12257,147.82326 133.65557,147.80576 Z M 314.29657,147.80576 C 313.82857,147.82296 313.40057,147.93926 313.02457,148.15146 310.72957,149.44496 310.81457,153.94866 313.21457,158.21196 315.61457,162.47616 319.42257,164.88526 321.71857,163.59286 324.01457,162.30066 323.93057,157.79656 321.53057,153.53236 319.57757,150.06306 316.61857,147.72066 314.29657,147.80576 Z M 93.112567,413.18076 95.186567,422.50106 111.69057,432.61436 128.43657,465.71396 118.92157,426.25306 Z M 354.83957,413.18076 329.03057,426.25306 319.51457,465.71596 336.26157,432.61436 352.76457,422.50106 Z M 129.80957,472.66706 134.57557,491.51666 212.13057,538.36236 221.00557,539.09486 221.00557,513.26086 136.10057,482.11236 Z M 318.14157,472.66706 311.85057,482.11236 226.94657,513.26086 226.94657,539.09676 235.82157,538.36236 313.37657,491.51666 Z"
+     style="display:inline;fill:#a40020;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="display:inline;opacity:0.65399996;fill:url(#linearGradient4235);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 143.89357,88.047964 C 80.033567,121.89926 51.565567,214.32876 62.509567,269.05186 73.826567,325.63856 91.575567,405.38976 91.575567,405.38976 L 123.02257,419.78816 138.44657,472.78626 221.00557,506.16316 221.00557,123.49126 C 221.00557,123.49126 168.90957,126.03896 143.89357,88.047964 Z M 134.21457,133.93276 C 135.20657,133.96876 136.11357,134.21446 136.91157,134.66316 141.78357,137.40706 141.60357,146.96706 136.50957,156.01666 131.41557,165.06586 123.33557,170.17856 118.46257,167.43666 113.58857,164.69416 113.76757,155.13356 118.86257,146.08306 123.00757,138.72116 129.28657,133.75136 134.21457,133.93276 Z M 133.65557,147.80576 C 131.33357,147.72066 128.37457,150.06306 126.42157,153.53236 124.02157,157.79656 123.93757,162.30066 126.23357,163.59286 128.52957,164.88526 132.33757,162.47616 134.73757,158.21196 137.13757,153.94776 137.22157,149.44366 134.92557,148.15146 134.54957,147.93956 134.12257,147.82326 133.65557,147.80576 Z M 93.112567,413.18076 95.186567,422.50106 111.69057,432.61436 128.43657,465.71396 118.92157,426.25306 Z M 129.80957,472.66706 134.57557,491.51666 212.13057,538.36236 221.00557,539.09486 221.00557,513.26086 136.10057,482.11236 Z"
+     id="path4721"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csccccccccsccccsccccccccccccccccc"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <use
+     style="display:inline"
+     x="0"
+     y="0"
+     xlink:href="#path4721"
+     id="use4727"
+     transform="matrix(-1,0,0,1,447.95167,0.00190123)"
+     width="100%"
+     height="100%"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <ellipse
+     ry="217.29207"
+     rx="105.84428"
+     cy="259.94608"
+     cx="148.49828"
+     id="ellipse5719"
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.56300001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient5729);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4200);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  <ellipse
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.84100001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient5717);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5973);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     id="path5709"
+     cx="304.15161"
+     cy="264.987"
+     rx="105.84428"
+     ry="217.29207" />
+  <g
+     transform="translate(10525.881,7477.089)"
+     style="display:inline;fill:#600000;fill-opacity:1"
+     id="g7323"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#600000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M -10391.666,-7343.1563 A 10.125523,18.804543 29.376937 0 0 -10407.017,-7331.0059 10.125523,18.804543 29.376937 0 0 -10407.418,-7309.6524 10.125523,18.804543 29.376937 0 0 -10389.371,-7321.0723 10.125523,18.804543 29.376937 0 0 -10388.969,-7342.4259 10.125523,18.804543 29.376937 0 0 -10391.666,-7343.1563 Z M -10392.224,-7329.2833 A 4.7710161,8.8604593 29.376937 0 1 -10390.955,-7328.9376 4.7710161,8.8604593 29.376937 0 1 -10391.142,-7318.877 4.7710161,8.8604593 29.376937 0 1 -10399.646,-7313.4962 4.7710161,8.8604593 29.376937 0 1 -10399.459,-7323.5567 4.7710161,8.8604593 29.376937 0 1 -10392.224,-7329.2833 Z"
+       id="path4668" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#600000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M -10212.142,-7343.1563 A 18.804542,10.125523 60.623063 0 0 -10214.84,-7342.4259 18.804542,10.125523 60.623063 0 0 -10214.439,-7321.0723 18.804542,10.125523 60.623063 0 0 -10196.39,-7309.6524 18.804542,10.125523 60.623063 0 0 -10196.791,-7331.0059 18.804542,10.125523 60.623063 0 0 -10212.142,-7343.1563 Z M -10211.584,-7329.2833 A 8.8604583,4.7710161 60.623063 0 1 -10204.349,-7323.5567 8.8604583,4.7710161 60.623063 0 1 -10204.162,-7313.4962 8.8604583,4.7710161 60.623063 0 1 -10212.666,-7318.877 8.8604583,4.7710161 60.623063 0 1 -10212.855,-7328.9376 8.8604583,4.7710161 60.623063 0 1 -10211.584,-7329.2833 Z"
+       id="path4670" />
+  </g>
+  <g
+     transform="translate(10525.881,7477.089)"
+     style="display:inline;fill:#600000;fill-opacity:1"
+     id="g4716"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <path
+       sodipodi:nodetypes="cscscccscc"
+       inkscape:connector-curvature="0"
+       id="path4666"
+       d="M -10388.826,-7241.8555 C -10406.929,-7241.3499 -10421.256,-7223.6747 -10420.826,-7202.377 -10420.396,-7181.0805 -10405.373,-7164.226 -10387.271,-7164.7305 -10369.168,-7165.2348 -10354.84,-7182.9093 -10355.269,-7204.2071 -10355.698,-7225.5053 -10370.722,-7242.3613 -10388.826,-7241.8555 Z M -10372.339,-7227.0865 C -10364.509,-7227.1894 -10358.277,-7216.913 -10358.42,-7204.1336 -10358.562,-7191.3537 -10365.025,-7180.9108 -10372.855,-7180.8091 -10380.684,-7180.7074 -10386.916,-7190.9827 -10386.772,-7203.7619 -10386.63,-7216.5402 -10380.167,-7226.9837 -10372.339,-7227.0865 Z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#600000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="cscscccscc"
+       inkscape:connector-curvature="0"
+       id="path4672"
+       d="M -10214.985,-7241.8555 C -10196.882,-7241.3499 -10182.555,-7223.6747 -10182.985,-7202.377 -10183.415,-7181.0805 -10198.437,-7164.226 -10216.539,-7164.7305 -10234.643,-7165.2348 -10248.97,-7182.9093 -10248.541,-7204.2071 -10248.112,-7225.5053 -10233.088,-7242.3613 -10214.985,-7241.8555 Z M -10231.472,-7227.0865 C -10239.301,-7227.1894 -10245.533,-7216.913 -10245.391,-7204.1336 -10245.249,-7191.3537 -10238.785,-7180.9108 -10230.955,-7180.8091 -10223.126,-7180.7074 -10216.895,-7190.9827 -10217.038,-7203.7619 -10217.181,-7216.5402 -10223.643,-7226.9837 -10231.472,-7227.0865 Z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#600000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  </g>
+  <path
+     d="M 97.166567,682.08104 Q 94.547567,682.08104 92.302567,682.01964 90.111567,681.98894 88.240567,681.83554 86.369567,681.68214 84.819567,681.37534 83.269567,681.03784 82.040567,680.51634 79.635567,679.50384 78.726567,677.90854 77.818567,676.31314 77.818567,673.88944 L 77.818567,667.81474 Q 77.818567,665.20694 78.726567,663.51954 79.635567,661.83204 82.040567,660.78894 84.445567,659.77654 88.080567,659.50034 91.768567,659.22424 97.113567,659.22424 L 111.06357,659.22424 Q 116.40857,659.22424 120.09657,659.50034 123.83757,659.77654 126.18957,660.78894 128.43457,661.77074 129.39657,663.42744 130.35857,665.05354 130.35857,667.53864 L 130.35857,673.76664 Q 130.35857,676.25174 129.39657,677.90854 128.43457,679.53454 126.18957,680.51634 123.78457,681.55944 120.04257,681.80494 116.35457,682.08104 111.06357,682.08104 L 97.166567,682.08104 Z M 107.90957,676.49724 Q 110.74257,676.49724 112.72057,676.34384 114.69757,676.19044 115.92757,675.73024 117.20957,675.27004 117.74457,674.44164 118.33257,673.58264 118.33257,672.23264 L 118.33257,669.07264 Q 118.33257,667.72264 117.74457,666.89434 117.20957,666.03524 115.92757,665.57504 114.69757,665.11484 112.72057,664.96144 110.74257,664.80804 107.90957,664.80804 L 100.32057,664.80804 Q 97.433567,664.80804 95.456567,664.96144 93.478567,665.11484 92.195567,665.60574 90.966567,666.06594 90.432567,666.92494 89.897567,667.78404 89.897567,669.19534 L 89.897567,672.29404 Q 89.897567,673.61324 90.485567,674.44164 91.073567,675.27004 92.302567,675.73024 93.585567,676.19044 95.563567,676.34384 97.540567,676.49724 100.37357,676.49724 L 107.90957,676.49724 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4674"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 171.17257,676.74264 Q 174.43257,676.74264 174.43257,674.68704 174.43257,673.79734 173.52357,673.27574 172.66857,672.72354 171.17257,672.72354 L 149.25857,672.72354 149.25857,676.74264 171.17257,676.74264 Z M 170.10357,668.18284 Q 173.14957,668.18284 173.14957,666.34204 173.14957,665.51374 172.29457,665.02284 171.49257,664.50124 170.10357,664.50124 L 149.25857,664.50124 149.25857,668.18284 170.10357,668.18284 Z M 137.39257,681.80494 137.39257,659.50034 172.40157,659.50034 Q 185.33657,659.50034 185.33657,665.72844 185.33657,667.53864 183.94657,668.67374 182.55657,669.80894 179.61757,670.45324 183.30557,670.79074 184.96157,672.07924 186.67257,673.36784 186.67257,675.76094 186.67257,678.98234 183.67957,680.39364 180.68657,681.80494 174.21857,681.80494 L 137.39257,681.80494 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4676"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 212.10257,682.08104 Q 209.48357,682.08104 207.23857,682.01964 205.04757,681.98894 203.17657,681.83554 201.30557,681.68214 199.75557,681.37534 198.20557,681.03784 196.97657,680.51634 194.57157,679.50384 193.66257,677.90854 192.75357,676.31314 192.75357,673.88944 L 192.75357,667.81474 Q 192.75357,665.20694 193.66257,663.51954 194.57157,661.83204 196.97657,660.78894 199.38157,659.77654 203.01557,659.50034 206.70357,659.22424 212.04857,659.22424 L 225.99857,659.22424 Q 231.34357,659.22424 235.03157,659.50034 238.77357,659.77654 241.12457,660.78894 243.36957,661.77074 244.33157,663.42744 245.29357,665.05354 245.29357,667.53864 L 245.29357,673.76664 Q 245.29357,676.25174 244.33157,677.90854 243.36957,679.53454 241.12457,680.51634 238.71957,681.55944 234.97857,681.80494 231.29057,682.08104 225.99857,682.08104 L 212.10257,682.08104 Z M 222.84557,676.49724 Q 225.67857,676.49724 227.65557,676.34384 229.63357,676.19044 230.86257,675.73024 232.14557,675.27004 232.67957,674.44164 233.26757,673.58264 233.26757,672.23264 L 233.26757,669.07264 Q 233.26757,667.72264 232.67957,666.89434 232.14557,666.03524 230.86257,665.57504 229.63357,665.11484 227.65557,664.96144 225.67857,664.80804 222.84557,664.80804 L 215.25557,664.80804 Q 212.36957,664.80804 210.39157,664.96144 208.41457,665.11484 207.13157,665.60574 205.90257,666.06594 205.36757,666.92494 204.83357,667.78404 204.83357,669.19534 L 204.83357,672.29404 Q 204.83357,673.61324 205.42157,674.44164 206.00957,675.27004 207.23857,675.73024 208.52157,676.19044 210.49857,676.34384 212.47657,676.49724 215.30957,676.49724 L 222.84557,676.49724 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4678"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 265.95757,681.80494 265.95757,664.96144 249.70957,664.96144 249.70957,659.50034 294.07157,659.50034 294.07157,664.96144 277.82357,664.96144 277.82357,681.80494 265.95757,681.80494 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4684"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 299.73457,681.80494 299.73457,659.50034 311.60057,659.50034 311.60057,681.80494 299.73457,681.80494 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4686"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 357.17457,667.32384 Q 357.17457,665.97394 355.62457,665.39094 354.12857,664.80804 350.92157,664.80804 L 341.40757,664.80804 Q 338.52057,664.80804 336.65057,664.96144 334.83357,665.11484 333.71057,665.57504 332.64157,666.03524 332.21457,666.92494 331.83957,667.78404 331.83957,669.19534 L 331.83957,672.29404 Q 331.83957,673.61324 332.32057,674.44164 332.85557,675.23934 333.97757,675.69954 335.15357,676.15974 336.97157,676.34384 338.78857,676.49724 341.40757,676.49724 L 348.30257,676.49724 Q 350.76057,676.49724 352.47157,676.40514 354.23457,676.28244 355.35757,675.97564 356.47957,675.63814 356.96057,675.05524 357.49557,674.44164 357.49557,673.42924 L 357.49557,673.18374 369.52157,673.18374 Q 369.57457,673.61324 369.57457,674.01214 369.62857,674.41094 369.62857,674.80984 369.62857,676.89604 368.71957,678.30734 367.81057,679.68794 365.72657,680.57764 363.48157,681.52874 359.95357,681.80494 356.47957,682.08104 351.34857,682.08104 L 338.09357,682.08104 Q 335.79557,682.08104 333.81757,682.01964 331.83957,681.98894 330.12957,681.80494 328.41957,681.65154 326.97657,681.31404 325.53257,680.97654 324.25057,680.42424 321.79157,679.31984 320.77557,677.75514 319.76057,676.19044 319.76057,673.88944 L 319.76057,667.81474 Q 319.76057,665.29894 320.72257,663.64224 321.73857,661.98544 323.92957,661.00374 326.17457,660.02194 329.64857,659.62314 333.12257,659.22424 338.09357,659.22424 L 351.34857,659.22424 Q 356.47957,659.22424 359.95357,659.46974 363.42857,659.71514 365.56657,660.66624 367.43657,661.49454 368.29157,662.87514 369.14757,664.25584 369.14757,666.28074 369.14757,666.58754 369.14757,666.89434 369.14757,667.20114 369.09357,667.53864 L 357.17457,667.53864 357.17457,667.32384 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4688"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 387.31057,674.38034 387.31057,674.77914 Q 387.31057,675.48474 387.57757,675.91424 387.89857,676.31314 388.53957,676.55854 389.18157,676.77334 390.25057,676.86534 391.31957,676.92674 392.86957,676.92674 L 407.78157,676.92674 Q 409.91957,676.92674 410.88157,676.52794 411.84357,676.09834 411.84357,675.08594 411.84357,674.47234 411.46957,674.10414 411.14857,673.73594 410.40057,673.55194 409.70557,673.33714 408.63657,673.27574 407.56757,673.18374 406.12457,673.15304 L 387.47057,672.81554 Q 384.10357,672.75424 381.80557,672.44744 379.50657,672.10994 378.11757,671.37364 376.72757,670.60664 376.13957,669.34874 375.55157,668.09084 375.55157,666.15794 375.55157,664.31714 376.13957,663.05934 376.78157,661.80144 378.27757,660.94234 380.41557,659.77654 383.67557,659.50034 386.93657,659.22424 391.63957,659.22424 L 409.75857,659.22424 Q 416.38657,659.22424 419.37957,660.60484 422.42657,661.98544 422.42657,665.20694 422.42657,665.48304 422.37257,665.78984 422.37257,666.09664 422.31957,666.43414 L 410.88157,666.43414 410.88157,666.34204 Q 410.88157,664.13304 406.97957,664.13304 L 393.29657,664.13304 Q 390.51757,664.13304 389.07457,664.43994 387.68457,664.71604 387.68457,665.88184 387.68457,666.92494 388.75357,667.29314 389.87657,667.66134 392.33457,667.72264 L 411.84357,667.99884 Q 415.21057,668.06014 417.50857,668.45904 419.80757,668.85784 421.25057,669.71684 422.69357,670.57594 423.33457,671.92584 423.97657,673.27574 423.97657,675.23934 423.97657,677.35624 423.06757,678.70614 422.21257,680.05614 419.59357,681.00724 417.77657,681.68214 414.78357,681.86624 411.84357,682.08104 407.56757,682.08104 L 391.74657,682.08104 Q 387.25757,682.08104 384.10357,681.83554 381.00357,681.59014 379.07957,680.94584 377.15557,680.30154 376.30057,679.16634 375.44457,678.00054 375.44457,676.15974 375.44457,675.76094 375.60557,674.38034 L 387.31057,674.38034 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4690"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 37.998567,605.37444 37.998567,616.94434 58.560567,616.94434 Q 61.515567,616.94434 62.521567,615.56104 63.590567,614.11474 63.590567,610.71924 63.590567,607.95254 62.395567,606.69494 61.264567,605.37444 58.560567,605.37444 L 37.998567,605.37444 Z M 59.063567,593.99324 Q 63.087567,593.99324 66.042567,594.37044 68.998567,594.74784 71.199567,595.87964 74.909567,597.82884 76.355567,601.53874 77.801567,605.18584 77.801567,611.15944 77.801567,615.74964 77.046567,619.01934 76.355567,622.28914 74.720567,624.36424 73.148567,626.43924 70.507567,627.38244 67.866567,628.32564 64.093567,628.32564 L 37.998567,628.32564 37.998567,639.70694 23.976567,639.70694 23.976567,593.99324 59.063567,593.99324 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4692"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 128.46457,605.37444 128.46457,616.56704 150.66157,616.56704 Q 153.61657,616.56704 154.62257,615.18374 155.69157,613.80044 155.69157,610.53064 155.69157,607.88964 154.49757,606.63204 153.36557,605.37444 150.66157,605.37444 L 128.46457,605.37444 Z M 151.16457,593.99324 Q 156.32057,593.99324 159.90457,594.68484 163.48957,595.31374 165.68957,597.01144 167.95357,598.70924 168.89657,601.60174 169.90257,604.49414 169.90257,608.95864 169.90257,614.61784 168.20557,617.63604 166.57057,620.65434 162.29457,621.66034 169.52557,623.35814 169.52557,630.33774 L 169.52557,639.70694 155.56657,639.70694 155.56657,632.72724 Q 155.56657,631.28094 155.18857,630.40064 154.87457,629.45744 154.11957,628.95444 153.36557,628.38854 152.17057,628.19984 150.97557,628.01124 149.27857,628.01124 L 128.46457,628.01124 128.46457,639.70694 114.44257,639.70694 114.44257,593.99324 151.16457,593.99324 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4694"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 208.41357,639.70694 208.41357,593.99324 222.37357,593.99324 222.37357,639.70694 208.41357,639.70694 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4696"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 261.40757,639.70694 261.40757,593.99324 282.03257,593.99324 298.31857,622.54064 314.91857,593.99324 335.22857,593.99324 335.22857,639.70694 321.70957,639.70694 321.70957,607.13514 302.84557,639.70694 293.72757,639.70694 274.98957,607.13514 274.98957,639.70694 261.40757,639.70694 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4698"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 387.44257,605.12294 387.44257,612.03974 421.33457,612.03974 421.33457,621.66034 387.44257,621.66034 387.44257,628.64004 423.97557,628.64004 423.97557,639.70694 373.48357,639.70694 373.48357,593.99324 423.40957,593.99324 423.40957,605.12294 387.44257,605.12294 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:151.63592529px;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:70.07241058px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4700"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     d="M 35.895567,665.05354 35.895567,670.51454 54.763567,670.51454 Q 57.275567,670.51454 58.130567,669.83964 59.039567,669.16464 59.039567,667.56924 59.039567,666.28074 58.023567,665.66714 57.061567,665.05354 54.763567,665.05354 L 35.895567,665.05354 Z M 55.190567,659.50034 Q 59.573567,659.50034 62.620567,659.83784 65.666567,660.14464 67.537567,660.97304 69.461567,661.80144 70.263567,663.21264 71.118567,664.62394 71.118567,666.80224 71.118567,669.56344 69.675567,671.03614 68.285567,672.50884 64.651567,672.99964 70.798567,673.82804 70.798567,677.23354 L 70.798567,681.80494 58.932567,681.80494 58.932567,678.39944 Q 58.932567,677.69374 58.611567,677.26424 58.344567,676.80404 57.703567,676.55854 57.061567,676.28244 56.046567,676.19044 55.030567,676.09834 53.587567,676.09834 L 35.895567,676.09834 35.895567,681.80494 23.976567,681.80494 23.976567,659.50034 55.190567,659.50034 Z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1000%;font-family:'Square 721';-inkscape-font-specification:'Square 721 Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ff2426;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4702"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <g
+     id="g7317"
+     transform="translate(10525.881,7477.7438)"
+     style="display:inline;fill:#ffffff;fill-opacity:1;filter:url(#filter6581)"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M -10372.339,-7227.0865 C -10364.509,-7227.1894 -10358.277,-7216.913 -10358.42,-7204.1336 -10358.562,-7191.3537 -10365.025,-7180.9108 -10372.855,-7180.8091 -10380.684,-7180.7074 -10386.916,-7190.9827 -10386.772,-7203.7619 -10386.63,-7216.5402 -10380.167,-7226.9837 -10372.339,-7227.0865 Z"
+       id="path7319"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscc" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M -10231.472,-7227.0865 C -10239.301,-7227.1894 -10245.533,-7216.913 -10245.391,-7204.1336 -10245.249,-7191.3537 -10238.785,-7180.9108 -10230.955,-7180.8091 -10223.126,-7180.7074 -10216.895,-7190.9827 -10217.038,-7203.7619 -10217.181,-7216.5402 -10223.643,-7226.9837 -10231.472,-7227.0865 Z"
+       id="path7321"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscc" />
+  </g>
+  <g
+     id="g7327"
+     transform="translate(10525.881,7477.3648)"
+     style="display:inline;fill:#ffffff"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <path
+       id="path7329"
+       d="M -10392.224,-7329.2833 C -10391.757,-7329.2657 -10391.33,-7329.1494 -10390.955,-7328.9376 -10388.658,-7327.6461 -10388.742,-7323.1417 -10391.142,-7318.877 -10393.542,-7314.6128 -10397.35,-7312.2037 -10399.646,-7313.4962 -10401.943,-7314.7877 -10401.859,-7319.292 -10399.459,-7323.5567 -10397.506,-7327.0266 -10394.547,-7329.3691 -10392.224,-7329.2833 Z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       id="path7331"
+       d="M -10211.584,-7329.2833 C -10209.261,-7329.3691 -10206.302,-7327.0266 -10204.349,-7323.5567 -10201.949,-7319.292 -10201.865,-7314.7877 -10204.162,-7313.4962 -10206.458,-7312.2037 -10210.266,-7314.6128 -10212.666,-7318.877 -10215.066,-7323.1408 -10215.151,-7327.6448 -10212.855,-7328.9376 -10212.479,-7329.1496 -10212.052,-7329.2659 -10211.584,-7329.2833 Z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+  </g>
+  <path
+     d="M 153.54102,249.9637 C 145.71302,250.0665 139.24942,260.50962 139.10742,273.28792 138.96342,286.06712 145.19639,296.34275 153.02539,296.24105 160.85539,296.13935 167.31894,285.69477 167.46094,272.91488 167.60394,260.13548 161.37102,249.8608 153.54102,249.9637 Z M 294.4082,249.9637 C 286.5792,249.8608 280.34823,260.13548 280.49023,272.91488 280.63223,285.69477 287.09578,296.13935 294.92578,296.24105 302.75478,296.34275 308.9848,286.06712 308.8418,273.28792 308.6988,260.50962 302.2372,250.0665 294.4082,249.9637 Z"
+     id="eyes_blue"
+     inkscape:connector-curvature="0"
+     style="fill:#24ff8d;fill-opacity:1" />
+  <path
+     style="fill:#ffffff;fill-opacity:1"
+     inkscape:connector-curvature="0"
+     id="eyes"
+     d="M 153.54102,249.9637 C 145.71302,250.0665 139.24942,260.50962 139.10742,273.28792 138.96342,286.06712 145.19639,296.34275 153.02539,296.24105 160.85539,296.13935 167.31894,285.69477 167.46094,272.91488 167.60394,260.13548 161.37102,249.8608 153.54102,249.9637 Z M 294.4082,249.9637 C 286.5792,249.8608 280.34823,260.13548 280.49023,272.91488 280.63223,285.69477 287.09578,296.13935 294.92578,296.24105 302.75478,296.34275 308.9848,286.06712 308.8418,273.28792 308.6988,260.50962 302.2372,250.0665 294.4082,249.9637 Z" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/Users/tl/Design/Exports [ DWD ]/Prime Robotics.png"
+     style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 173.61133,80.801864 173.61233,80.801864 C 173.00733,80.800964 172.29133,81.007364 171.62733,81.374164 170.27033,82.124664 169.49833,83.325164 169.90233,84.055764 170.30633,84.787164 171.73433,84.771364 173.09233,84.020564 174.44933,83.269864 175.22033,82.069364 174.81633,81.338964 174.62633,80.995364 174.19433,80.802764 173.61333,80.801864 M 274.33833,80.801864 C 273.75733,80.802764 273.32533,80.995364 273.13533,81.338964 272.73133,82.069364 273.50233,83.269864 274.85933,84.020564 276.21733,84.771364 277.64533,84.787164 278.04933,84.055764 278.45333,83.325164 277.68133,82.124664 276.32433,81.374164 275.65933,81.006964 274.94333,80.800464 274.33833,80.801864 Z M 223.96933,97.713964 C 222.41833,97.716364 221.16233,98.396164 221.16433,99.231564 221.16433,99.419064 221.22733,99.605764 221.35333,99.780364 221.77533,100.36086 222.81633,100.74156 223.97433,100.73936 225.52533,100.73696 226.78033,100.05856 226.77933,99.223764 226.77933,98.388064 225.52133,97.711364 223.96933,97.713964 Z"
+     id="path4207"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccccccc" />
+</svg>
