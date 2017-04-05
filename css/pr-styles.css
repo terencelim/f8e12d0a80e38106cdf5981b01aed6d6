@@ -15,3 +15,49 @@ path#eyes:hover {
   fill: white !important;
   fill-opacity: 0 !important;
 }
+
+path#eyes_colored {
+  fill: #ffff62 !important;
+  fill-opacity: 1 !important;
+}
+
+path#rivet_left:link,
+path#rivet_left:visited,
+path#rivet_left:hover,
+path#rivet_left:active,
+path#rivet_middle:link,
+path#rivet_middle:visited,
+path#rivet_middle:hover,
+path#rivet_middle:active,
+path#rivet_right:link,
+path#rivet_right:visited,
+path#rivet_right:hover,
+path#rivet_right:active {
+  cursor: default;
+}
+
+/*
+When setting the style for several link states, there are some order rules:
+    a:hover MUST come after a:link and a:visited
+    a:active MUST come after a:hover
+*/
+/* Mandatory Order #1 */
+ /* unvisited link */
+/*a:link {
+    color: red;
+}*/
+/* Mandatory Order #2 */
+/* visited link */
+/*a:visited {
+    color: green;
+}*/
+/* Mandatory Order #3 */
+/* mouse over link */
+/*a:hover {
+    color: hotpink;
+}*/
+/* Mandatory Order #4 */
+/* selected link */
+/*a:active {
+    color: blue;
+}*/
