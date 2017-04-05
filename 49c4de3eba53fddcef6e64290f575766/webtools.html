@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>WebTools</title>
+    <!-- Bootstrap -->
+    <!--<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+
+    <link rel="icon" type="image/x-icon" href="./favicon.ico?v=20170319224800">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap-3.3.5-dist/js/html5shiv.min.js"></script>
+      <script src="bootstrap-3.3.5-dist/js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="./css/codegenerator_v2.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/base64.js"></script>
+    <script src="./js/html_code_escape.js"></script>
+    <script src="./js/word_counter.js"></script>
+    <script src="./js/url_enc_dec.js"></script>
+    <script src="./js/codegenerator_v2.js"></script>
+
+</head>
+
+<body onload="generateComment();">
+    <div class="container-fluid">
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <!--Panel 1 Start-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">-->
+                        <h4 class="panel-title">
+                        Base64 Encoder / Decoder
+                        </h4>
+                    <!--</a>-->
+                </div>
+                <!--Panel 1 Body-->
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Decoded</h3>
+                    <textarea id="b64enc" class="form-control" rows="10"></textarea>
+                    <br />
+                    <button class="btn btn-default" type="button" onclick="b64Encode()">Encode</button>
+                    <button class="btn btn-default" type="button" onclick="svgPreview()">Preview</button>
+                </div>
+                <div class="col-md-6">
+                    <h3>Encoded</h3>
+                    <textarea id="b64dec" class="form-control" rows="10"></textarea>
+                    <br />
+                    <button class="btn btn-default" type="button" onclick="b64Decode()">Decode</button>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-6">
+    <textarea class="form-control" rows="8">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve"><polygon fill="#DDDDDD" points="10,0 13.09,6.583 20,7.639 15,12.764 16.18,20 10,16.583 3.82,20 5,12.764 0,7.639 6.91,6.583 " /></svg>
+
+    Working Version                    
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve"><polygon points="10,0 13.09,6.583 20,7.639 15,12.764 16.18,20 10,16.583 3.82,20 5,12.764 0,7.639 6.91,6.583 " /></svg>
+    </textarea>
+                    <br />
+                    <textarea class="form-control" rows="8">url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjREREREREIiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=');</textarea>
+                </div>
+                <div class="col-md-6">
+                    <div id="svgContainer"></div>
+                </div>
+            </div>
+            <br />
+            <h1>References</h1>
+            https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding<br />
+            https://en.wikipedia.org/wiki/Data_URI_scheme<br />
+            https://css-tricks.com/probably-dont-base64-svg/<br /><br />
+    <pre>
+    <strong>HTML</strong>
+    &lt;img src=<b>'data:image/svg+xml;utf8,&lt;svg ... &gt; ... &lt;/svg&gt;'</b>&gt;
+
+    <strong>CSS</strong>
+    .bg {
+    background: url('data:image/svg+xml;utf8,&lt;svg ...&gt; ... &lt;/svg&gt;');
+    }
+    </pre>
+                </div>
+                </div>
+            </div>
+            <!--Panel 2 Start-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h4 class="panel-title">
+                        <!--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">-->
+                        HTML Code Escape
+                        <!--</a>-->
+                    </h4>
+                </div>
+                <!--Panel 2 Body-->
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+    <div class="container-fluid">
+        <!--<h1>HTML Code Escape</h1>-->
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Decoded</h3>
+                <textarea id="txtEscapeCode" class="form-control" rows="10"></textarea>
+                <br />
+                <button class="btn btn-default" type="button" onclick="escapeCode()">Encode</button>
+            </div>
+            <div class="col-md-6">
+                <h3>Encoded</h3>
+                <textarea id="txtUnEscapeCode" class="form-control" rows="10">&lt;img src='data:image/svg+xml;utf8,&lt;svg ... &gt; ... &lt;/svg&gt;'&gt;</textarea>
+                <br />
+                <button class="btn btn-default" type="button" onclick="unEscapeCode()">Decode</button>
+                <button class="btn btn-default" type="button" onclick="codePreview()">Preview</button>
+            </div>
+        </div>
+        <br />
+
+&lt;img src=<b>'data:image/svg+xml;utf8,&lt;svg ... &gt; ... &lt;/svg&gt;'</b>&gt;<br />
+&lt;img src=<b>'data:image/svg+xml;base64,...'</b>&gt;<br />
+<br />
+<strong>CSS</strong>
+.bg {
+  background: url('data:image/svg+xml;utf8,&lt;svg ...&gt; ... &lt;/svg&gt;');
+}
+<br />
+<br />
+
+<a href="https://css-tricks.com/lodge/svg/09-svg-data-uris/">https://css-tricks.com/lodge/svg/09-svg-data-uris/</a>
+<br/>
+&lt;img src=&#39data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; version=&quot;1.1&quot; id=&quot;Layer_1&quot; x=&quot;0px&quot; y=&quot;0px&quot; viewBox=&quot;0 0 100 100&quot; enable-background=&quot;new 0 0 100 100&quot; xml:space=&quot;preserve&quot; height=&quot;100px&quot; width=&quot;100px&quot;&gt;
+&lt;g&gt;
+    &lt;path d=&quot;M28.1,36.6c4.6,1.9,12.2,1.6,20.9,1.1c8.9-0.4,19-0.9,28.9,0.9c6.3,1.2,11.9,3.1,16.8,6c-1.5-12.2-7.9-23.7-18.6-31.3   c-4.9-0.2-9.9,0.3-14.8,1.4C47.8,17.9,36.2,25.6,28.1,36.6z&quot;/&gt;
+    &lt;path d=&quot;M70.3,9.8C57.5,3.4,42.8,3.6,30.5,9.5c-3,6-8.4,19.6-5.3,24.9c8.6-11.7,20.9-19.8,35.2-23.1C63.7,10.5,67,10,70.3,9.8z&quot;/&gt;
+    &lt;path d=&quot;M16.5,51.3c0.6-1.7,1.2-3.4,2-5.1c-3.8-3.4-7.5-7-11-10.8c-2.1,6.1-2.8,12.5-2.3,18.7C9.6,51.1,13.4,50.2,16.5,51.3z&quot;/&gt;
+    &lt;path d=&quot;M9,31.6c3.5,3.9,7.2,7.6,11.1,11.1c0.8-1.6,1.7-3.1,2.6-4.6c0.1-0.2,0.3-0.4,0.4-0.6c-2.9-3.3-3.1-9.2-0.6-17.6   c0.8-2.7,1.8-5.3,2.7-7.4c-5.2,3.4-9.8,8-13.3,13.7C10.8,27.9,9.8,29.7,9,31.6z&quot;/&gt;
+    &lt;path d=&quot;M15.4,54.7c-2.6-1-6.1,0.7-9.7,3.4c1.2,6.6,3.9,13,8,18.5C13,69.3,13.5,61.8,15.4,54.7z&quot;/&gt;
+    &lt;path d=&quot;M39.8,57.6C54.3,66.7,70,73,86.5,76.4c0.6-0.8,1.1-1.6,1.7-2.5c4.8-7.7,7-16.3,6.8-24.8c-13.8-9.3-31.3-8.4-45.8-7.7   c-9.5,0.5-17.8,0.9-23.2-1.7c-0.1,0.1-0.2,0.3-0.3,0.4c-1,1.7-2,3.4-2.9,5.1C28.2,49.7,33.8,53.9,39.8,57.6z&quot;/&gt;
+    &lt;path d=&quot;M26.2,88.2c3.3,2,6.7,3.6,10.2,4.7c-3.5-6.2-6.3-12.6-8.8-18.5c-3.1-7.2-5.8-13.5-9-17.2c-1.9,8-2,16.4-0.3,24.7   C20.6,84.2,23.2,86.3,26.2,88.2z&quot;/&gt;
+    &lt;path d=&quot;M30.9,73c2.9,6.8,6.1,14.4,10.5,21.2c15.6,3,32-2.3,42.6-14.6C67.7,76,52.2,69.6,37.9,60.7C32,57,26.5,53,21.3,48.6   c-0.6,1.5-1.2,3-1.7,4.6C24.1,57.1,27.3,64.5,30.9,73z&quot;/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;&#39&gt;
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Preview</h3>
+                <div id="codePreview"></div>
+            </div>
+        </div>
+
+    </div>
+                </div>
+                </div>
+            </div>
+            <!--Panel 3 Start-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h4 class="panel-title">
+                    <!--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">-->
+                    Word Counter
+                    <!--</a>-->
+                </h4>
+                </div>
+                <!--Panel 3 Body-->
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+<div class="container-fluid">
+    <!--<h1>Word Counter</h1>-->
+
+    <div class="row" id="word_count_row">
+        <!--<div class="col-md-6">-->
+        <div class="col-md-12">
+            <textarea id="txtCount" class="form-control" rows="10" onkeydown="counter()" onkeypress="counter()" onkeyup="counter()" onblur="counter()"
+                onfocus="counter()"></textarea>
+            <br />
+            <!-- <button class="btn btn-default" type="button" onclick="counter()">Count</button> -->
+            <center>
+                <button class="btn btn-primary" type="button" onclick="words255()">255 Words</button>
+                <button class="btn btn-info" type="button" onclick="characters255()">255 Characters</button>
+            </center>
+            <br><br>
+            <div id="result">
+                <table align="center">
+                    </tr>
+                    <td>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Words<br>(NO spaces)</h3>
+                            </div>
+                            <div class="panel-body text-center" id="wordCount">
+                                0
+                            </div>
+                        </div>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Total Characters<br>(NO spaces)</h3>
+                            </div>
+                            <div class="panel-body text-center" id="charCountNoSpace">
+                                0
+                            </div>
+                        </div>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Total Characters<br>(WITH trailing space)</h3>
+                            </div>
+                            <div class="panel-body text-center" id="totalChars">
+                                0
+                            </div>
+                        </div>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Total Characters<br>(NO trailing space)</h3>
+                            </div>
+                            <div class="panel-body text-center" id="charCount">
+                                0
+                            </div>
+                        </div>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Words: <span id="wordCount">0</span><br/> -->
+            <!-- Total Characters(including trails): <span id="totalChars">0</span><br/> -->
+            <!-- Characters (excluding trails): <span id="charCount">0</span><br/> -->
+            <!-- Characters (excluding all spaces): <span id="charCountNoSpace">0</span> -->
+        </div>
+    </div>
+    <strong>Source:</strong> http://www.blindtextgenerator.com/lorem-ipsum
+</div>
+<!-- Div Container End -->
+                </div> 
+                <!--Panel 3 Body End-->
+            </div>
+<!--Panel Url Enc Dec Start-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <h4 class="panel-title">
+                    <!--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">-->
+                    URL Encode Decode
+                    <!--</a>-->
+                </h4>
+                </div>
+<!--Panel Url Enc Dec Tab-->
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+<!--Panel Url Enc Dec Body-->
+                    <div class="panel-body">
+<div class="container-fluid">
+    Reference: http://meyerweb.com/eric/tools/dencoder/
+    <form onsubmit="return false;">
+        <h1>URL Decoder/Encoder</h1>
+
+        <textarea class="form-control" cols="100" rows="20" id="dencoder">http://localhost:8100/%7B%7BctmStaticMapLink%7D%7D</textarea>
+        <br />
+        <div>
+            <button class="btn btn-default" type="button" onclick="decode()" value="Decode">Decode</button>
+            <button class="btn btn-default" type="button" onclick="encode()" value="Encode">Encode</button>
+        </div>
+        <br />
+        <ul>
+            <li>Input a string of text and encode or decode it as you like.</li>
+            <li>Handy for turning encoded JavaScript URLs from complete gibberish into readable gibberish.</li>
+            <li>If you'd like to have the URL Decoder/Encoder for offline use, just view source and save to your hard drive.</li>
+        </ul>
+
+    </form>
+
+
+    <div id="footer">
+        <img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif">
+        <p>
+            <br> The URL Decoder/Encoder is licensed under a Creative Commons <a href="http://creativecommons.org/licenses/by-sa/2.0/"
+                rel="license">Attribution-ShareAlike 2.0</a> License.
+        </p>
+        <p>
+            This tool is provided without warranty, guarantee, or much in the way of explanation. Note that use of this tool may or may
+            not crash your browser, lock up your machine, erase your hard drive, or e-mail those naughty pictures you hid
+            in the Utilities folder to your mother. Don't blame me if anything bad happens to you, because it's actually
+            the aliens' fault. The code expressed herein is solely that of the author, and he's none too swift with the JavaScript,
+            if you know what we mean, so it's likely to cause giggle fits in anyone who knows what they're doing. Not a flying
+            toy. Thank you for playing. Insert coin to continue.
+        </p>
+    </div>
+
+</div>
+                    </div>
+<!--Panel Url Enc Dec Body End-->
+                </div>
+<!--Panel Url Enc Dec Tab End-->
+            </div>
+<!--Panel Url Enc Dec End-->
+<!--Panel Url Enc Dec Start-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <h4 class="panel-title">
+                    <!--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">-->
+                    Code Section Generator
+                    <!--</a>-->
+                </h4>
+                </div>
+<!--Panel Url Enc Dec Tab-->
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+<!--Panel Url Enc Dec Body-->
+                    <div class="panel-body">
+  <form name="COMMENTForm">
+    <table id="cGen" align="MIDDLE">
+      <tbody>
+        <tr class="rowTitle">
+          <!-- <td colspan="3" >
+            <center>Designation</center>
+          </td>
+          <td colspan="3" >
+            <center>Content</center>
+          </td> -->
+          <td colspan="6" align="center">
+            <h1>Custom Header Generator</h1>
+          </td>
+        </tr>
+        <!-- <tr>
+          <td colspan="6" align="center">
+            Required Data Entry
+          </td>
+        </tr> -->
+        <tr>
+          <td colspan="1" class="rowTitle">Pad Length</td>
+          <td colspan="5" >
+            <input type="text" name="txtNum" id="txtNum" size="5" value="80" onkeyup="generateComment();"></input>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="6" class="rowTitle">Pad Separator - Spans Entire Line</td>
+        </tr>
+        <tr>
+          <td colspan="1" class="rowTitle" >Custom Char</td>
+          <td >
+            <input type="text" name="txtCustomSepChar" id="txtCustomSepChar" size="5" value="#" onkeyup="generateComment();"></input>
+          </td>
+          <td class="rowTitle" >Standard Characters</td>
+          <td colspan="3" >
+              <input name="chkSepStdChar" id="chkSepCharAt" type="radio" onclick="updateSep('txtCustomSepChar', this.name);" value="@"><label for="chkSepCharAt">@</label>
+              <input name="chkSepStdChar" id="chkSepCharHash" type="radio" checked onclick="updateSep('txtCustomSepChar', this.name);" value="#"><label for="chkSepCharHash">#</label>
+              <input name="chkSepStdChar" id="chkSepCharDollar" type="radio" onclick="updateSep('txtCustomSepChar', this.name);" value="$"><label for="chkSepCharDollar">$</label>
+              <input name="chkSepStdChar" id="chkSepCharAsterisk" type="radio" onclick="updateSep('txtCustomSepChar', this.name);" value="*"><label for="chkSepCharAsterisk">*</label>
+              <input name="chkSepStdChar" id="chkSepCharMinus" type="radio" onclick="updateSep('txtCustomSepChar', this.name);" value="-"><label for="chkSepCharMinus">-</label>
+              <input name="chkSepStdChar" id="chkSepCharUnder" type="radio" onclick="updateSep('txtCustomSepChar', this.name);" value="_"><label for="chkSepCharUnder">_</label>
+              <input name="chkSepStdChar" id="chkSepCharEqual" type="radio" onclick="updateSep('txtCustomSepChar', this.name);" value="="><label for="chkSepCharEqual">=</label>
+              <input name="chkSepStdChar" id="chkSepCharPlus" type="radio" onclick="updateSep('txtCustomSepChar', this.name);" value="+"><label for="chkSepCharPlus">+</label>
+              <input name="chkSepStdChar" id="chkSepCharSpace" type="radio" onclick="updateSep('txtCustomSepChar', this.name);" value=" "><label for="chkSepCharSpace">Space</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="rowTitle" >Pad Separator Beginning</td>
+          <td >
+            <input type="text" name="txtSeparatorBegin" id="txtSeparatorBegin" size="5" value="// " onkeyup="generateComment();"></input>
+          </td>
+          <td class="rowTitle" >Pad Separator End</td>
+          <td >
+            <input type="text" name="txtSeparatorEnd" id="txtSeparatorEnd" size="5" value=" //" onkeyup="generateComment();"></input>
+          </td>
+          <td class="rowTitle">Remove Separator</td>
+          <td>
+            <input name="chkRemPadSeparator" id="chkRemPadSeparator" type="checkbox" onclick="generateComment();"><label for="chkRemPadSeparator"></label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="6" class="rowTitle" >Pad Segment - Text Line Only</td>
+        </tr>
+        <tr>
+          <td colspan="1" class="rowTitle" >Custom Char</td>
+          <td >
+            <input type="text" name="txtCustomSegChar" id="txtCustomSegChar" size="5" value="=" onkeyup="generateComment();"></input>
+          </td>
+          <td class="rowTitle" >Standard Characters</td>
+          <td colspan="3" >
+              <input name="chkSegStdChar" id="chkSegCharAt" type="radio" onclick="updateSep('txtCustomSegChar', this.name);" value="@"><label for="chkSegCharAt">@</label>
+              <input name="chkSegStdChar" id="chkSegCharHash" type="radio" onclick="updateSep('txtCustomSegChar', this.name);" value="#"><label for="chkSegCharHash">#</label>
+              <input name="chkSegStdChar" id="chkSegCharDollar" type="radio" onclick="updateSep('txtCustomSegChar', this.name);" value="$"><label for="chkSegCharDollar">$</label>
+              <input name="chkSegStdChar" id="chkSegCharAsterisk" type="radio" onclick="updateSep('txtCustomSegChar', this.name);" value="*"><label for="chkSegCharAsterisk">*</label>
+              <input name="chkSegStdChar" id="chkSegCharMinus" type="radio" onclick="updateSep('txtCustomSegChar', this.name);" value="-"><label for="chkSegCharMinus">-</label>
+              <input name="chkSegStdChar" id="chkSegCharUnder" type="radio" onclick="updateSep('txtCustomSegChar', this.name);" value="_"><label for="chkSegCharUnder">_</label>
+              <input name="chkSegStdChar" id="chkSegCharEqual" type="radio" checked onclick="updateSep('txtCustomSegChar', this.name);" value="="><label for="chkSegCharEqual">=</label>
+              <input name="chkSegStdChar" id="chkSegCharPlus" type="radio" onclick="updateSep('txtCustomSegChar', this.name);" value="+"><label for="chkSegCharPlus">+</label>
+              <input name="chkSegStdChar" id="chkSegCharSpace" type="radio" onclick="updateSep('txtCustomSegChar', this.name);" value=" "><label for="chkSegCharSpace">Space</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="rowTitle" >Pad Segment Beginning</td>
+          <td >
+            <input type="text" name="txtSegmentBegin" id="txtSegmentBegin" size="5" value="// " onkeyup="generateComment();"><label for="txtSegmentBegin"></label>
+          </td>
+          <td class="rowTitle" >Pad Segment End</td>
+          <td>
+            <input type="text" name="txtSegmentEnd" id="txtSegmentEnd" size="5" value=" //" onkeyup="generateComment();"><label for="txtSegmentEnd"></label>
+          </td>
+          <td class="rowTitle">Remove Segments</td>
+          <td>
+            <input name="chkRemPadSegment" id="chkRemPadSegment" type="checkbox" onclick="generateComment();"><label for="chkRemPadSegment"></label>
+          </td>
+        </tr>
+        <tr>
+          <td class="rowTitle">Segment Surround</td>
+          <td>
+            <input type="text" name="txtSurround" id="txtSurround" size="5" value="[]" onkeyup="generateComment();"><label for="txtSurround"></label>
+          </td>
+          <td class="rowTitle">Pad Segment with Spaces</td>
+          <td>
+            <input name="chkPadding" id="chkPadding" type="checkbox" onclick="generateComment();"><label for="chkPadding"></label>
+          </td>
+          <td class="rowTitle">Remove Segment Surround</td>
+          <td>
+            <input name="chkRemPadSegSurround" id="chkRemPadSegSurround" type="checkbox" onclick="generateComment();"><label for="chkRemPadSegSurround"></label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" class="rowTitle" >Segment Text</td>
+          <td colspan="3" >
+            <input type="text" name="txtToPad" id="txtToPad" size="80" value="Section Header with MIXED case StUfF" onkeyup="generateComment();"><label for="txtToPad"></label>
+          </td>
+          <td colspan="2" class="rowTitle">
+            Repeat Text <input type="text" style="text-align: center;" name="txtToRepeat" id="txtToRepeat" size="1" max="  1" value="1" onkeyup="generateComment();"> Times<br />
+            <input name="chkRepeat" id="chkRepeat01" type="radio" checked onclick="generateComment();"><label for="chkRepeat01">1</label>
+            <input name="chkRepeat" id="chkRepeat02" type="radio" onclick="generateComment();"><label for="chkRepeat02">2</label>
+            <input name="chkRepeat" id="chkRepeat03" type="radio" onclick="generateComment();"><label for="chkRepeat03">3</label>
+            <input name="chkRepeat" id="chkRepeat04" type="radio" onclick="generateComment();"><label for="chkRepeat04">4</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" class="rowTitle" >Begin / End Segments</td>
+          <td colspan="5" >
+            <input name="chkBeginEndSegments" id="chkBeginEndSegments" type="checkbox" onclick="generateComment();"><label for="chkBeginEndSegments"></label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" class="rowTitle" >Formatting</td>
+          <td colspan="5" >
+            <input name="chkCase" id="chkNoFmt" type="radio" checked onclick="generateComment();"><label for="chkNoFmt">No Format</label>
+            <input name="chkCase" id="chkUpper" type="radio" onclick="generateComment();"><label for="chkUpper">UPPERCASE</label>
+            <input name="chkCase" id="chkTitle" type="radio" onclick="generateComment();"><label for="chkTitle">Title Case</label>
+            <input name="chkCase" id="chkLower" type="radio" onclick="generateComment();"><label for="chkLower">lowercase</label>
+          </td>
+        </tr>
+        <tr bgcolor="#aed698" style="color: green;">
+          <td colspan="6" align="center">
+            <h2>Customized Output</h2>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="6" align="center">
+            <textarea style="width: 98%; height: 252px;" name="showCode" id="showCode" rows="6" cols="60"></textarea>
+          </td>
+        </tr>
+        <tr bgcolor="#aed698" style="color: green;">
+          <td colspan="6" align="center">
+            <h2>Example Snippets</h2>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="6" align="center">
+            <textarea style="width: 98%; height: 252px;" name="exampleCode" id="exampleCode" rows="6" cols="90"></textarea>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+
+<br />
+<hr size=1 />
+
+<h3>Alternate Section Separation Style:</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;/* ------------- `user_tasks` table method ------------------ */
+
+<h3>Some of the sections as follows should be included.</h3>
+<ol>
+  <li>Heading:</li>
+  <li>File:</li>
+  <li>Version: major.minor.patch.(A)lpha|(B)eta|(S)table|(U)nstable/e(X)perimental# <sup><b>1</b></sup> </li>
+  <li>Author:</li>
+  <li>Date Created:</li>
+  <li>Date Modified:</li>
+  <li>Date Last Backup:</li>
+  <li>Purpose:</li>
+  <li>Usage:</li>
+  <li>References:</li>
+  <li>File formats: A short description of the formats which will be used in the program.</li>
+  <li>Restrictions:</li>
+  <li>Copyright:</li>
+  <li>Revision history:</li>
+  <li>Error handling:</li>
+  <li>Notes: Include special comments or other information that has not already been covered.</li>
+</ol>
+
+<p>
+<sup><b>1</sup>&nbsp;&nbsp;Versioning Explanation</b><br />
+</p>
+<table id="tblVersion">
+  <tr>
+    <td>
+      v#.#.#.A|B|S|U/X#
+    </td>
+    <td>
+      <b>e.g. v1.0.5.A5</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      v0#.0#.0#.A|B|S|U/X0#
+    </td>
+    <td>
+      <b>e.g. v01.00.05.A05</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      major
+    </td>
+    <td>
+      &bull;&nbsp;only changes if there are incompatible changes in the API<br />
+      &bull;&nbsp;main version number, 1-~.<br />
+      &bull;&nbsp;the <b>major</b> segment indicates breakage in the API<br />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      minor
+    </td>
+    <td>
+      &bull;&nbsp;changes if there are changes in the API but backward compatibility is given<br />
+      &bull;&nbsp;feature number, 0-9. Increase this number if the change contains new features with or without bug fixes.<br />
+      &bull;&nbsp;the <b>minor</b> segment indicates "externally visible" changes<br />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      bugs | hotfix | issues<br />
+      patch | service<br />
+      any other changes
+    </td>
+    <td>
+      &bull;&nbsp;bugs, hotfix, issues, patch, service or any other changes, could be the build number or any other increasing number<br />
+      &bull;&nbsp;hotfix number, 0-~. Increase this number if the change only contains bug fixes.<br />
+      &bull;&nbsp;the <b>service</b> segment indicates bug fixes and the change of development stream<br />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      A | alpha
+    </td>
+    <td>
+      indicates an <b>Alpha</b> version
+    </td>
+  </tr>
+  <tr>
+    <td>
+      B | beta
+    </td>
+    <td>
+      indicates a <b>Beta</b> version
+    </td>
+  </tr>
+  <tr>
+    <td>
+      S | stable
+    </td>
+    <td>
+      indicates a <b>Stable</b> version
+    </td>
+  </tr>
+  <tr>
+    <td>
+      U | unstable
+    </td>
+    <td>
+      indicates an <b>Unstable</b> version OR Experimental version
+    </td>
+  </tr>
+  <tr>
+    <td>
+      X | experimental
+    </td>
+    <td>
+      indicates an <b>Experimental</b> version OR Unstable version
+    </td>
+  </tr>
+</table>
+
+<br />
+
+In Eclipse, version numbers are composed of four (4) segments: 3 integers and a string respectively named <b>major.minor.service.qualifier</b>. Each segment captures a different intent:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;the <b>major</b> segment indicates breakage in the API<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;the <b>minor</b> segment indicates "externally visible" changes<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;the <b>service</b> segment indicates bug fixes and the change of development stream<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;the <b>qualifier</b> segment indicates a particular build<br />
+<br />
+<b>Source:</b> http://stackoverflow.com/questions/2864448/best-practice-software-versioning<br />
+<b>Source:</b> http://programmers.stackexchange.com/questions/178596/looking-for-best-practice-for-version-numbering-of-dependent-software-components<br />
+
+<pre>
+/********************************************************
+ * hello -- program to print out "Hello World".         *
+ *                                                      *
+ * Author :  FirstName, LastName                        *
+ *                                                      *
+ * Purpose:  Demonstration of a simple program.         *
+ *                                                      *
+ * Usage  :  Runs the program and the message appears.  *
+ *           Runs the program and the message appears.  *
+ *                                                      *
+ ********************************************************/
+</pre>
+
+                    </div>
+<!--Panel Url Enc Dec Body End-->
+                </div>
+<!--Panel Url Enc Dec Tab End-->
+            </div>
+<!--Panel Url Enc Dec End-->
+            <!--Panel Reference Start-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingReference" data-toggle="collapse" data-parent="#accordion" href="#collapseReference" aria-expanded="false" aria-controls="collapseReference">
+                <h4 class="panel-title">
+                    <!--<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseReference" aria-expanded="false" aria-controls="collapseReference">-->
+                    Color Schemes
+                    <!--</a>-->
+                </h4>
+                </div>
+                <!--Panel Reference Body-->
+                <div id="collapseReference" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingReference">
+                    <div class="panel-body">
+                        <h5>[ 20170316 - 22:59:09 ] - Paletton - The Color Scheme Designer</h5>
+                            <ul>
+                                <li><a href="http://paletton.com/#uid=71D220kwi++bu++hX++++rd++kX" target="blank">Paletton</a></li>
+                            </ul>
+                        <h5>[ 20170316 - 22:59:09 ] - Best Color Palette Generators — HTML Color Codes</h5>
+                            <ul>
+                                <li><a href="http://htmlcolorcodes.com/resources/best-color-palette-generators/" target="blank">Best Color Palette Generators</a></li>
+                            </ul>
+                        <h5>[ 20170316 - 22:59:09 ] - Download ▲ Prism</h5>
+                            <ul>
+                                <li><a href="http://prismjs.com/download.html" target="blank">PrimsJS Syntax Highlighter</a></li>
+                            </ul>
+                    </div>
+                </div>
+                <!--Panel Reference Body End-->
+            </div>
+            <!--Panel Reference End-->
+        </div>
+    </div> <!-- END DIV container-fluid-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="bootstrap-3.3.5-dist/js/jquery.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</body>
+
+</html>
