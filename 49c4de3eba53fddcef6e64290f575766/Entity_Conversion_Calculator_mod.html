@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Entity Conversion Calculator</title>
+
+	<style type="text/css">
+		body {
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		}
+
+		label {
+			display: block;
+			width: 12em;
+			float: left;
+		}
+
+		#calculator span {
+			font-family: "Courier New", Courier, mono;
+		}
+
+		.cf-hidden {
+			display: none;
+		}
+
+		.cf-invisible {
+			visibility: hidden;
+		}
+	</style>
+</head>
+
+<body cz-shortcut-listen="true">
+	<h1>Entity Conversion Calculator</h1>
+	<p>https://www.evotech.net/articles/testjsentities.html</p>	
+	<div id="calculator">
+		<label>Numeric Value (Decimal)</label><input name="decimal" value="&amp;#164" type="text"> <span>&amp;#164; = �</span><br>
+		<label>CSS Value (Hex)</label><input name="octal" disabled="disabled" value="\00A4" type="text">
+		<!--<span>li:before {content:'\02A6';}</span><br>-->
+		<span id="cssList">li:before {content:'\02A6';}</span><br>	
+		<label>JS Value (Hex)</label><input name="octal2" disabled="disabled" value="\u00A4" type="text">
+		<!--<span>alert('The hex \u02A6 renders as HTML entity &amp;#678;');</span><br>-->
+		<span id="jsAlert">alert('The hex \u02A6 renders as HTML entity &amp;#678;');</span><br>
+		<button>Convert</button>
+	</div>
+	<p>or</p>
+	<div id="converter">
+		<label>Paste a character here: <input id="reverse" size="2" maxlength="1" value="�" type="text"></label>
+		<button>Convert</button>
+	</div>
+	<script type="text/javascript">
+		/*
+		Author: Estelle Weyl
+		Date: June 8, 2007
+		Modified: January 15, 2012
+		*/
+		var conversions = {
+			calc: document.getElementById("calculator"),
+			inputs: document.getElementsByTagName("input"),
+			spans: document.getElementsByTagName("span"),
+			theButton: document.getElementsByTagName('button'),
+			x: '',
+			y: '',
+			z: '',
+			setUp: function () {
+				conversions.theButton[0].addEventListener('click', conversions.setAllValues, false);
+				conversions.theButton[1].addEventListener('click', conversions.setTop, false);
+			},
+			setTop: function () {
+				var letter = document.getElementById('reverse').value;
+				document.getElementsByTagName("input")[0].value = letter.charCodeAt().toString(10);
+				conversions.setAllValues();
+			},
+			setAllValues: function () {
+				var decimalValue = conversions.inputs[0].value;
+				decimalValue = decimalValue.replace(/\D/g, ''); //clean the value
+				var hexValue = Number(decimalValue).toString(16);
+				while (hexValue.length < 4) {
+					hexValue = "0" + hexValue;
+					//alert('\u' + hexValue);
+				}
+				if (isNaN(decimalValue)) {
+					conversions.inputs[0].value = 'Number Please';
+					return;
+				}
+				conversions.inputs[0].value = '\46#' + decimalValue;
+				conversions.inputs[1].value = hexcss = '\\' + hexValue.toUpperCase();
+				conversions.inputs[2].value = hexjs = '\\u' + hexValue.toUpperCase();
+				hexcss = '\\' + hexValue.toUpperCase();
+				hexjs = '\\u' + hexValue.toUpperCase();
+
+				// cssText = document.createTextNode("li:before {content:'" + hexcss + "';}");
+				// jsText = document.createTextNode("alert('The hex " + hexjs + " renders as HTML entity \u0026#" + decimalValue +
+				// 	";');");				
+				conversions.spans[0].innerHTML = '&#38;#' + decimalValue + '; = &#' + decimalValue;
+				// if (conversions.x) {
+				// 	conversions.x = conversions.spans[1].replaceChild(cssText, x);
+				// 	conversions.y = conversions.spans[2].replaceChild(jsText, y);
+				// } else {
+				// 	conversions.x = conversions.spans[1].appendChild(cssText);
+				// 	conversions.y = conversions.spans[2].appendChild(jsText);
+				// }
+				
+				// document.getElementById("jsAlert").innerHTML = "alert('The hex " + hexjs + " renders as HTML entity \u0026#" + decimalValue + ";');";
+				document.getElementById("cssList").innerHTML = "li:before {content:'" + hexcss + "';}";
+				document.getElementById("jsAlert").innerHTML = "alert('The hex " + hexjs + " renders as HTML entity &#38;#" + decimalValue + '; = &#' + decimalValue + ";');";
+
+				return hexValue;
+			}
+		}
+
+		conversions.setUp();
+	</script>
+
+</body>
+
+</html>
