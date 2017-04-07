@@ -134,20 +134,20 @@ cond2(yes)->io2->e
         </div>
         <div>
             <button id="run" type="button">Run</button>&nbsp;&nbsp;
-            <input id="filename" type="text" value="plot.svg" />&nbsp;&nbsp;
-            <button id="SVGsave" type="button" onclick="saveSVG(document.getElementById('filename').value);">Save SVG</button>
-            <button id="PNGsave" type="button" onclick="updateCanvas();">Update Canvas</button>
-            <button id="btnTest" type="button" name="png" value="image/svg+xml" onclick="alert(document.getElementById('btnTest').name + ' - ' + document.getElementById('btnTest').value)">PNG</button>
+            <input id="filename" class="btn btn-primary" type="text" value="plot.svg" />&nbsp;&nbsp;
+            <button id="SVGsave" class="btn btn-primary" type="button" onclick="saveSVG(document.getElementById('filename').value);">Save SVG</button>
+            <button id="PNGsave" class="btn btn-primary" type="button" onclick="updateCanvas();">Update Canvas</button>
+            <button id="btnTest" class="btn btn-primary" type="button" name="png" value="image/svg+xml" onclick="alert(document.getElementById('btnTest').name + ' - ' + document.getElementById('btnTest').value)">PNG</button>
             
             MimeType
-            <select id="mimetype">
+            <select class="form-control" id="mimetype">
                 <option value="image/png">PNG</option>
                 <option value="image/bmp">BMP</option>
                 <option value="image/jpeg">JPG</option>
                 <option value="image/gif">GIF</option>
                 <option value="image/tiff">TIF</option>
             </select>
-            <button id="updateCanvas" type="button" onclick="exportCanvasToMimeType();">Export As MimeType</button>
+            <button id="updateCanvas" class="btn btn-primary" type="button" onclick="exportCanvasToMimeType();">Export As MimeType</button>
         </div>
         <div id="canvas"></div>
         <!--Image<br />-->
