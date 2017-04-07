@@ -133,7 +133,7 @@ cond2(yes)->io2->e
         </div>
         <div>
             <button id="run" type="button">Run</button>&nbsp;&nbsp;
-            <input id="filename" class="form-control" type="text" value="plot.svg" />&nbsp;&nbsp;
+            <input id="filename" class="form-control" type="text" value="plot.svg" style="width: 150px;" />&nbsp;&nbsp;
             <button id="SVGsave" class="btn btn-primary" type="button" onclick="saveSVG(document.getElementById('filename').value);">Save SVG</button>
             <button id="PNGsave" class="btn btn-primary" type="button" onclick="updateCanvas();">Update Canvas</button>
             <button id="btnTest" class="btn btn-primary" type="button" name="png" value="image/svg+xml" onclick="alert(document.getElementById('btnTest').name + ' - ' + document.getElementById('btnTest').value)">PNG</button>
