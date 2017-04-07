@@ -134,7 +134,8 @@ cond2(yes)->io2->e
             <input id="filename" type="text" value="plot.svg" />&nbsp;&nbsp;
             <button id="SVGsave" type="button" onclick="saveSVG(document.getElementById('filename').value);">Save SVG</button>
             <button id="PNGsave" type="button" onclick="updateCanvas();">Update Canvas</button>
-
+            <button id="btnTest" type="button" name="png" value="image/svg+xml" onclick="alert(document.getElementById('btnTest').name + ' - ' + document.getElementById('btnTest').value)">PNG</button>
+            
             MimeType
             <select id="mimetype">
                 <option value="image/png">PNG</option>
